@@ -1,0 +1,188 @@
+body
+{
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #000000 0%, #061329 25%, #2b1857 50%, #614385 75%, #9c5fa5 100%);
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    padding: 20px;
+    background-size: cover;
+    color: white;
+    image-resolution: 1000px;
+}
+
+#container-link
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#link-item-wa {
+    margin: 10px;
+    padding: 15px;
+    background-color: yellowgreen;
+    box-shadow: 0 0 30px greenyellow;
+    color: #fff; /* Warna teks yang kontras dengan latar belakang */
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    
+}
+
+#link-item-wa:hover {
+    transform: scale(1.05);
+    background-color: greenyellow;
+}
+
+#link-item-wa a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+}
+
+#link-item-ig {
+    margin: 30px;
+    padding: 15px;
+    background: linear-gradient(90deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FFC13B);
+    box-shadow: 0 0 30px plum;
+    color: #fff; /* Warna teks yang kontras dengan latar belakang */
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    
+}
+
+#link-item-ig:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #FF5E3A, #FF2E63, #FF6868, #FFD738, #00A1F1, #44D62C);
+}
+
+#link-item-ig a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+}
+
+#link-item-tt {
+    margin: 15px;
+    padding: 15px;
+    background-color: #000000;
+    box-shadow: 0 0 30px white;
+    color: #fff; /* Warna teks yang kontras dengan latar belakang */
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    
+}
+
+#link-item-tt:hover {
+    transform: scale(1.05);
+    background-color: #696969;
+}
+
+#link-item-tt a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+}
+
+#link-item-storeweb {
+    margin: 30px;
+    padding: 15px;
+    background-color: blue;
+    box-shadow: 0 0 30px pink;
+    color: #fff; /* Warna teks yang kontras dengan latar belakang */
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    
+}
+
+#link-item-storeweb:hover {
+    transform: scale(1.05);
+    background-color: lightskyblue;
+}
+
+#link-item-storeweb a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+}
+
+.deskripsi
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    animation: blink 1s infinite, changeColor 5s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1;}
+    50% {opacity: 0;}
+    100% { opacity: 1}
+}
+
+@keyframes changeColor {
+    0% {
+        color: #ff0000;
+      }
+      16.666% {
+        color: #ff8000;
+      }
+      33.333% {
+        color: #ffff00;
+      }
+      50% {
+        color: #80ff00;
+      }
+      66.666% {
+        color: #00ff80;
+      }
+      83.333% {
+        color: #00ffff;
+      }
+      100% {
+        color: #0080ff;
+      }
+  }
